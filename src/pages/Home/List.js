@@ -6,7 +6,7 @@ class List extends Component {
     }
     render() {
         return (
-            <div>List</div>
+            <div>List页面内容</div>
         )
     }
     componentDidMount() {
