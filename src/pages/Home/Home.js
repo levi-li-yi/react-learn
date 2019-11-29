@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 class Home extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             list: [
                 {
