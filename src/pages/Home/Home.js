@@ -37,7 +37,7 @@ class Home extends Component {
         this.props.history.push('/list/:'+ '233')
         // 通过push还可以传对象
         /*this.props.history.push({
-            pathName: '/list',
+            pathname: '/list',
             state: {
                 id: 1
             }
