@@ -35,6 +35,15 @@ class Home extends Component {
     goTo() {
         console.log('push');
         this.props.history.push('/list/:'+ '233')
+        // 通过push还可以传对象
+        /*this.props.history.push({
+            pathName: '/list',
+            state: {
+                id: 1
+            }
+        })
+        // 接受时：
+        this.props.history.location.state*/
     }
 }
 export default Home;
